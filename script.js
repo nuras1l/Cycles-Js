@@ -59,6 +59,22 @@ let numbers1 = [1,2,3,4,5]
 for (let i = 0; i < numbers1.length; i++) {
     console.log(numbers1[i]);
   }
+
+//8 
+const numbers = [10, 20, 30, 40, 50]
+
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i])
+}
+
+let input
+
+while (input !== "yes") {
+  input = prompt("Введите 'yes' для продолжения:");
+}
+
+console.log("Продолжаем!");
+
   
 //9
 let numbers2 =[]
